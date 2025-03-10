@@ -1,0 +1,56 @@
+.card {
+    padding: 50px;
+    border-style: solid;
+    margin: 10px;
+}
+
+.card:hover {
+    padding: 53px;
+}
+
+.card:active {
+    padding: 55px;
+}
+
+.navigate {
+    background-color: darkslategray;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10px;
+    margin:10px;
+}
+
+.navigate:hover {
+    opacity: 0.9;
+}
+
+.submit {
+    border:none;
+    background-color: darkslategray;
+    color: white;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 10px;
+    font-size: 16px;
+    padding: 10px 20px;
+}
+
+input {
+    font-size: 18px;
+    padding: 5px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+}
+
+input:focus {
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    outline: none;
+}
